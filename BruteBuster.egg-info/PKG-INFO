@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: BruteBuster
+Version: 0.1.9
+Summary: Base models, views and forms for kuona insights on Kuona Analytics
+Home-page: https://analytics.kuona.co
+Author: Kuona Development
+Author-email: developer@kuona.co
+License: Kuona Inc
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: DjangoFramework :: Django :: 1.8.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Kuona Inc
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
