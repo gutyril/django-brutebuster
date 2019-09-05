@@ -1,0 +1,6 @@
+*.pyc
+csv/
+www/static/
+.idea/
+*.DS_Store
+

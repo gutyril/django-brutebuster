@@ -1,7 +1,9 @@
 # BruteBuster by Cyber Security Consulting (www.csc.bg)
 
 """Decorators used by BruteBuster"""
-
+from django.core.exceptions import ValidationError
+from django.utils.translation import ugettext as _
+from models import BB_BLOCK_INTERVAL
 
 def protect_and_serve(auth_func):
     """
@@ -42,7 +44,7 @@ def protect_and_serve(auth_func):
                     # of too many recent failures
                     fa.failures += 1
                     fa.save()
-                    return None
+                    raise ValidationError(_("User has been blocked after too many failed login attempts. Please retry in {} minutes").format(BB_BLOCK_INTERVAL))
             else:
                 # the block interval is over, so let's start
                 # with a clean sheet
