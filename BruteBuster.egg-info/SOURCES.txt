@@ -12,3 +12,5 @@ BruteBuster.egg-info/PKG-INFO
 BruteBuster.egg-info/SOURCES.txt
 BruteBuster.egg-info/dependency_links.txt
 BruteBuster.egg-info/top_level.txt
+BruteBuster/migrations/0001_initial.py
+BruteBuster/migrations/__init__.py

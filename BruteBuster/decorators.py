@@ -3,7 +3,6 @@
 """Decorators used by BruteBuster"""
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext as _
-from models import BB_BLOCK_INTERVAL
 
 def protect_and_serve(auth_func):
     """
@@ -18,7 +17,7 @@ def protect_and_serve(auth_func):
 
     def decor(*args, **kwargs):
         # Import here to avoid AppRegistryNotReady("Apps aren't loaded yet.") Exception
-        from BruteBuster.models import FailedAttempt
+        from BruteBuster.models import FailedAttempt, BB_BLOCK_INTERVAL
         from BruteBuster.middleware import get_request
         """
         This is the wrapper that gets installed around the default
