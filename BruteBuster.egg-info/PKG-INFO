@@ -1,17 +1,17 @@
 Metadata-Version: 1.1
 Name: BruteBuster
-Version: 0.1.9
-Summary: Base models, views and forms for kuona insights on Kuona Analytics
-Home-page: https://analytics.kuona.co
-Author: Kuona Development
-Author-email: developer@kuona.co
-License: Kuona Inc
+Version: 0.2.1
+Summary: BruteBuster is a simple, pluggable Django app that can help you protect against password bruteforcing attempts.
+Home-page: https://github.com/gutyril/django-brutebuster
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: The Python Packaging Authority
 Description: UNKNOWN
 Platform: UNKNOWN
 Classifier: Environment :: Web Environment
 Classifier: Framework :: DjangoFramework :: Django :: 1.8.2
 Classifier: Intended Audience :: Developers
-Classifier: License :: OSI Approved :: Kuona Inc
+Classifier: License :: OSI Approved :: The Python Packaging Authority
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 2.7

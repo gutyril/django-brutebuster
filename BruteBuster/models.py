@@ -1,4 +1,3 @@
-# BruteBuster by Cyber Security Consulting (www.csc.bg)
 
 """
 BruteBuster DB model.
